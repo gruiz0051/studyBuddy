@@ -1,0 +1,208 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+    background-color: #ccd5ae;
+    
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+font-family: 'Roboto Condensed', sans-serif;
+font-style:italic;
+font-size:3rem;
+line-height:1.5;
+color:#2F3E46;
+font-weight:lighter;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#132a13;
+    font-size:1.5;
+    font-weight: bold;
+    font-style:italic;
+}
+h3{
+    font-family:'Monserrat','sans-serif';
+    font-weight: bold;
+}
+p{
+    color: #132a13;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.navbar{
+    padding: 0 0 4.5rem;
+    color:#2F3E46;
+
+}
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.5rem;
+    color:#2F3E46;
+    font-weight:bold;
+    text-decoration: underline;
+
+}
+.nav-item{
+    padding:0px 60px;
+    text-decoration: underline;
+}
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    color:#132a13;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+    background-color:#2F3E46;
+    color:white;
+    text-decoration: underline;
+
+}
+.title-image{
+   width: 100%;
+   height: auto;
+   position:relative;
+   
+     
+}
+#features{
+    padding:7% 15%;
+    position:relative;
+    background-color:#e9edc9 ;
+}
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+.icon{
+    color: #2F3E46;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#CAD2C5;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ccd5ae;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius:50%;
+    margin: 10px;
+}
+#press{
+    background-color:#ccd5ae;
+    text-align:center;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+    background-color: #e9edc9;
+}
+.pricing-header{
+    color:#000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+
+
+}
+.pricing-column{
+    padding:3%;
+}
+.card-body{
+    background-color:#FEFAE0;
+}
+#cta{
+    background-color:#ccd5ae;
+    color:white;
+    padding: 7% 15%;
+    text-align:center;
+
+}
+
+.cta-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:#132a13
+}
+#footer{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #FEFAE0;
+}
+.social-icon{
+    margin:20px 10px;
+}
+.card-header{
+    background-color:#2F3E46;
+}
+.dean-list-text-color{
+    color:white;
+}
+.magna-text-color{
+    color:white;
+
+}
+.honors-text-color{
+    color:white;
+}
+.icon-text{
+    color:#132a13;
+
+}
+/* Overlay*/
+.img-container {
+    position: relative;
+    width: 60%;
+  }
+.overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    background-color: #2F3E46;
+    overflow: hidden;
+    width: 100%;
+    transition: .5s ease;
+  }
+  
+  .img-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap;
+    font-weight:bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+@media(max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position:static;
+    }
+}
